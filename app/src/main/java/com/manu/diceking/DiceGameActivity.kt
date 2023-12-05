@@ -58,13 +58,14 @@ class DiceGameActivity : AppCompatActivity() {
             p5Score = 0
             p6Score = 0
             targetScore = 0
-            binding.p1Score.text = "00"
-            binding.p2Score.text = "00"
-            binding.p3Score.text = "00"
-            binding.p4Score.text = "00"
-            binding.p5Score.text = "00"
-            binding.p6Score.text = "00"
-            binding.targetText.text = "00"
+            val score = "00"
+            binding.p1Score.text = score
+            binding.p2Score.text = score
+            binding.p3Score.text = score
+            binding.p4Score.text = score
+            binding.p5Score.text = score
+            binding.p6Score.text = score
+            binding.targetText.text = score
         }
 
         binding.targetPlus.setOnClickListener {
